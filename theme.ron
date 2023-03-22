@@ -1,7 +1,11 @@
 #![enable(implicit_some)]
 (
   border_width: 2,
-  margin: 6,
+  margin: 4,
+  workspace_margin: 6,
+  gutter: [
+    (side: Top, value: 27),
+  ],
   default_border_color: '#4A433D',
   floating_border_color: '#E6E5E5',
   focused_border_color: '#FFD000',
