@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env osh
 
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 SCRIPTPATH/down
