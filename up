@@ -10,7 +10,7 @@ elif [ -x "$(command -v compton)" ]; then
   compton &> /dev/null & 
 fi
 
-echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
+echo "LoadTheme $SCRIPTPATH/theme.ron" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
 
 # Boot polybar based on the number of monitors found
 if [ -x "$(command -v polybar)" ]; then
