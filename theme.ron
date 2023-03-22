@@ -6,7 +6,7 @@
   gutter: [
     (side: Top, value: 27),
   ],
-  default_border_color: '#4A433D',
-  floating_border_color: '#E6E5E5',
-  focused_border_color: '#FFD000',
+  default_border_color: "#4A433D",
+  floating_border_color: "#E6E5E5",
+  focused_border_color: "#FFD000",
 )
